@@ -2,12 +2,19 @@
 
 # Herança
 
-- Estudar o código e fazer uma breve descriação do que entendeu
+Permite reutilização de código onde uma classe filha herda características da classe pai
+Evita repetição, mas pode deixar o sistema confuso se usado excessivamente
+Alternativa: usar composição
 
 # Composição / Associação
 
-- Estudar o código e fazer uma breve descriação do que entendeu
+Conecta classes através de relacionamentos "tem um" ao invés de "é um" (herança)
+Exemplos: pessoa tem endereço, professor tem alunos, aluno está em turmas
+Mais flexível que herança
 
 # Injeção de Dependencia
 
-- Estudar o código e fazer uma breve descriação do que entendeu
+Técnica para passar dependências de uma classe "de fora para dentro"
+Ao invés da classe criar suas próprias dependências, ela as recebe prontas
+Torna o código mais flexível e fácil de manter
+Exemplo: ao invés de "Carro cria Motor", você passa o motor pronto para o carro
